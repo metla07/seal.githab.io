@@ -1,2 +1,2 @@
-https://metla07.github.io/seal.github.io/
+https://metla07.github.io/seal.githab.io/
 
