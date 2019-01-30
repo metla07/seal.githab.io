@@ -30,6 +30,10 @@ body {
     background: url(../images/imagbody.jpg) no-repeat;
     box-shadow: -10px 15px 120px 50px #fff;
     transform: rotateY(2deg);
+    -ms-transform: rotateY(2deg);
+    -webkit-transform: rotateY(2deg);
+    -moz-transform: rotateY(2deg);
+    -o-transform: rotateY(2deg);
 }
 
 .hh {
@@ -46,19 +50,31 @@ body {
     color: #1B9AFC;
     border-bottom: 5px solid #FBEA00;
     transition: 2s;
+    -ms-transition: 2s;
+    -webkit-transition: 2s;
+    -moz-transition: 2s;
+    -o-transition: 2s;
 }
 
 .hh h1:hover {
     transition: 3s;
     text-shadow: 2px 8px 10px black;
+    -ms-transition: 3s;
+    -webkit-transition: 3s;
+    -moz-transition: 3s;
+    -o-transition: 3s;
 }
 
 .hh h1:hover {
     transition: 3s;
-    border: 0px solid #FBEA00 ;
+    border: 0px solid #FBEA00;
     color: white;
     border-radius: 100%;
     box-shadow: 0px 0px 80px 10px #FBEA00;
+    -ms-transition: 3s;
+    -webkit-transition: 3s;
+    -moz-transition: 3s;
+    -o-transition: 3s;
 }
 
 .menu {
@@ -82,12 +98,15 @@ body {
 
 .menu a:hover {
     color: #FBEA00;
-    ;
 }
 
 .menu a:active {
     color: red;
     transition: 0.1s;
+    -ms-transition: 0.1s;
+    -webkit-transition: 0.1s;
+    -moz-transition: 0.1s;
+    -o-transition: 0.1s;
 }
 
 .main {
@@ -207,6 +226,10 @@ body {
 .block_2:hover {
     box-shadow: 0px -10px 180px 5px #FBEA00;
     transition: 0.5s;
+    -ms-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
 }
 
 .block_2 {
@@ -219,6 +242,10 @@ body {
     width: 160px;
     order: 1;
     transition: 0.5s;
+    -ms-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
 }
 
 .block_3 {
@@ -245,12 +272,20 @@ body {
     background-image: url(../images/IMG_1136.JPG );
     order: 0;
     transition: 5s;
+    -ms-transition: 5s;
+    -webkit-transition: 5s;
+    -moz-transition: 5s;
+    -o-transition: 5s;
 }
 
 .logo:hover {
     box-shadow: 0px 0px 200px 10px #FBEA00;
     transition: 0.5s;
     border: 5px solid #FBEA00;
+    -ms-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
 }
 
 .logo a {
@@ -263,6 +298,10 @@ body {
 .footer {
     box-shadow: 0px -20px 90px 25px #fff;
     transform: rotateX(3deg);
+    -ms-transform: rotateX(3deg);
+    -webkit-transform: rotateX(3deg);
+    -moz-transform: rotateX(3deg);
+    -o-transform: rotateX(3deg);
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
