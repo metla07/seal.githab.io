@@ -102,7 +102,10 @@ body {
 .menu a:active {
     color: red;
 }
-
+.fotogif {
+    padding: 0px;
+    margin-top: 20px; 
+}
 .main {
     display: flex;
     justify-content: space-around;
@@ -110,7 +113,7 @@ body {
     min-height: 800px;
     background-color: #BFADA1;
     max-width: 1366px;
-    min-width: 180px;
+    min-width: 850px;
     background: url(../images/ice_texture2999.jpg);
 }
 
@@ -176,7 +179,7 @@ body {
 .main .block01 {
     order: 0;
     background-color: #fff;
-    margin: 50px 10px 10px 10px;
+    margin: 0px 10px 10px 10px;
     padding: 50px;
     background: url(../images/01ice.jpg);
     min-width: 750px;
@@ -186,11 +189,9 @@ body {
     text-align: center;
     font-size: 70px;
     text-shadow: 2px 8px 10px black;
-}
-
-.order h1:first-child {
     color: white;
 }
+
 
 .order p {
     color: #fff;
@@ -252,6 +253,7 @@ body {
 #logo {
     height: 400px;
     width: 400px;
+    
 }
 
 .logo {
@@ -262,7 +264,7 @@ body {
     width: 320px;
     border: 5px solid #fff;
     border-radius: 50%;
-    background-image: url(../images/IMG_1136.JPG );
+    background-image: url(../images/IMG_1136.JPG);
     order: 0;
     transition: 3s;
     -ms-transition: 3s;
@@ -294,6 +296,7 @@ body {
     align-items: center;
     flex-flow: wrap;
     min-height: 400px;
+    min-width: 850px;
     background-color: green;
     background: url(../images/40477-utro-nebo-peyzash-gornyj_hrebet-arktika-1366x768.jpg);
 }
