@@ -24,7 +24,7 @@ body {
     display: flex;
     justify-content: space-around;
     flex-flow: wrap;
-    min-height: 700px;
+    min-height: 500px;
     max-width: 1366px;
     background: url(../images/imagbody.jpg) no-repeat;
     box-shadow: -10px 15px 120px 50px #fff;
@@ -104,7 +104,6 @@ body {
 }
 
 .main {
-    margin-top: 10px;
     display: flex;
     justify-content: space-around;
     align-content: space-around;
@@ -216,29 +215,14 @@ body {
     order: 1;
 }
 
-.block_2:hover {
-    box-shadow: 0px -10px 180px 5px #FBEA00;
-    transition: 0.5s;
-    -ms-transition: 0.5s;
-    -webkit-transition: 0.5s;
-    -moz-transition: 0.5s;
-    -o-transition: 0.5s;
-}
-
 .block_2 {
     background: url(../images/aiys.jpg) no-repeat;
     padding: 0px 5px 0px 5px;
     margin: 5px 0px 0px 10px;
     border-radius: 10%;
     background-color: #56F7FF;
-    box-shadow: 0px 0px 90px 1px #5EB4D5;
     width: 160px;
     order: 1;
-    transition: 0.5s;
-    -ms-transition: 0.5s;
-    -webkit-transition: 0.5s;
-    -moz-transition: 0.5s;
-    -o-transition: 0.5s;
 }
 
 .block_3 {
@@ -264,21 +248,11 @@ body {
     border-radius: 50%;
     background-image: url(../images/IMG_1136.JPG );
     order: 0;
-    transition: 5s;
-    -ms-transition: 5s;
-    -webkit-transition: 5s;
-    -moz-transition: 5s;
-    -o-transition: 5s;
 }
 
 .logo:hover {
     box-shadow: 0px 0px 60px 10px #FBEA00;
-    transition: 0.5s;
     border: 5px solid #FBEA00;
-    -ms-transition: 0.5s;
-    -webkit-transition: 0.5s;
-    -moz-transition: 0.5s;
-    -o-transition: 0.5s;
 }
 
 .logo a {
@@ -290,11 +264,6 @@ body {
 
 .footer {
     box-shadow: 0px -20px 90px 25px #fff;
-    transform: rotateX(3deg);
-    -ms-transform: rotateX(3deg);
-    -webkit-transform: rotateX(3deg);
-    -moz-transform: rotateX(3deg);
-    -o-transform: rotateX(3deg);
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
