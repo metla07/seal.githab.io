@@ -213,7 +213,7 @@ body {
 
 
 .block_2:hover {
-    box-shadow: 0px -10px 180px 5px #FBEA00;
+    box-shadow: 0px 0px 120px 5px #FBEA00;
     transition: 0.6s;
     -ms-transition: 0.6s;
     -webkit-transition: 0.6s;
@@ -227,7 +227,7 @@ body {
     margin: 0px 0px 0px 20px;
     border-radius: 10%;
     background-color: #56F7FF;
-    box-shadow: 0px -10px 90px 1px #5EB4D5;
+    box-shadow: 0px 0px 90px 1px #5EB4D5;
     width: 160px;
     order: 1;
     transition: 1s;
