@@ -283,20 +283,19 @@ body {
 }
 
 .logo:hover {
-    box-shadow: 0px 0px 160px 10px #FBEA00;
+    box-shadow: 0px 0px 20px 10px #FBEA00;
     transition: 0.5s;
     border: 5px solid #FBEA00;
     -ms-transition: 0.5s;
     -webkit-transition: 0.5s;
     -moz-transition: 0.5s;
     -o-transition: 0.5s;
+    border-radius: 0%;
 }
 
 .logo a {
     display: block;
-    height: 300px;
-    width: 300px;
-    border-radius: 50%;
+    
 }
 
 .footer {
